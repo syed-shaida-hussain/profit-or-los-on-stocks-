@@ -1,3 +1,7 @@
+:root{
+    --primary-color : #1E40AF;
+}
+
 body{
     text-align: center;
 }
@@ -5,4 +9,35 @@ body{
 label{
     display: block;
     padding-bottom: 1rem;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+.heading{
+    color: var(--primary-color);
+}
+
+#initial-price , #stocks-quantity , #current-price{
+    padding: 0.5rem;
+    width: 60vh;
+    height: 10vh;
+    margin: auto;
+    display: block;
+    border-radius: 0.5rem;
+    border-color: var(--primary-color);
+}
+
+button{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.7rem;
+}
+
+div{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: x-large;
+    font-weight: 100;
+    color: var(--primary-color);
 }
